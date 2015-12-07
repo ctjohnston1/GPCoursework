@@ -1,0 +1,17 @@
+﻿Build started 07/12/2015 20:33:48.
+     1>Project "c:\Users\Conor\documents\visual studio 2013\Projects\GPCoursework\GPCoursework\GPCoursework.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\conor\documents\visual studio 2013\Projects\GPCoursework\Debug\GPCoursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\conor\documents\visual studio 2013\Projects\GPCoursework\Debug\GPCoursework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\conor\documents\visual studio 2013\Projects\GPCoursework\Debug\GPCoursework.lib" /MACHINE:X86 Debug\cMain.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         "Libraries\glm-0.3.2Lib.lib"
+         Libraries\ILU.lib
+         Libraries\OpenAL32.lib
+     1>LINK : fatal error LNK1561: entry point must be defined
+     1>Done Building Project "c:\Users\Conor\documents\visual studio 2013\Projects\GPCoursework\GPCoursework\GPCoursework.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.69
