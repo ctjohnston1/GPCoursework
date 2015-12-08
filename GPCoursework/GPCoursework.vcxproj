@@ -70,10 +70,19 @@
     <Library Include="Libraries\ftgl.lib" />
     <Library Include="Libraries\glm-0.3.2Lib.lib" />
     <Library Include="Libraries\ILU.lib" />
+    <Library Include="Libraries\ILUT.lib" />
     <Library Include="Libraries\OpenAL32.lib" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cMain.cpp" />
+    <ClCompile Include="GameConstants.cpp" />
+    <ClCompile Include="WindowOGL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameConstants.h" />
+    <ClInclude Include="wglext.h" />
+    <ClInclude Include="WindowOGL.h" />
+    <ClInclude Include="WNDManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
